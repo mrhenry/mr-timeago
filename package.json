@@ -24,6 +24,7 @@
     "fd-angular-core": "@1.0.3"
   },
   "jspm": {
+    "jspmNodeConversion": false,
     "format": "es6",
     "main": "timeago.js",
     "dependencies": {
