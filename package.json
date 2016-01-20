@@ -1,0 +1,33 @@
+{
+  "name": "mr-timeago",
+  "version": "1.0.0",
+  "description": "Parse a timestamp into a human readable string",
+  "main": "timeago.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrhenry/mr-timeago.git"
+  },
+  "keywords": [
+    "human",
+    "time"
+  ],
+  "author": "Pieter Beulque",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrhenry/mr-timeago/issues"
+  },
+  "homepage": "https://github.com/mrhenry/mr-timeago#readme",
+  "dependencies": {
+    "fd-angular-core": "@1.0.3"
+  }
+  "jspm": {
+    "format": "es6",
+    "main": "timeago.js",
+    "dependencies": {
+      "fd-angular-core": "npm:fd-angular-core"
+    }
+  }
+}
