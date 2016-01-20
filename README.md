@@ -4,10 +4,10 @@ Small Angular.js directive that parses a timestamp into a human readable string
 ## Usage
 
 ```html
-<time mr-timeago="{{::date}}"></time>
+<time mr-timeago="object.date"></time>
 ```
 
-with date being a UNIX timestamp (e.g. `1435305932121`)
+with date being a UNIX timestamp (e.g. `1435305932121`) or a `new Date()` parse-able string.
 
 ## Output
 
