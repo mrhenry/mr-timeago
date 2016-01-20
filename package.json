@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/mrhenry/mr-timeago#readme",
   "dependencies": {
-    "fd-angular-core": "@1.0.3"
+    "fd-angular-core": "1.x.x"
   },
   "jspm": {
     "jspmNodeConversion": false,
