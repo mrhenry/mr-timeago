@@ -1,6 +1,6 @@
 {
   "name": "mr-timeago",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse a timestamp into a human readable string",
   "main": "timeago.js",
   "scripts": {
