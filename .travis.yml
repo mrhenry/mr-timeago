@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.12'
+script: |
+	npm test
+deploy:
+  provider: npm
+  email: pieterbeulque@gmail.com
+  api_key:
+    secure: WVgh1icw3w730XVQ/+J9vBst3VyPvJGHrlCzDdTNPIG7tdVIEQ4HMGIEHhqagjWrYieL7BMdWWyNcANAULmkeAvLBPnFGs40oYv2gttwALe2eRAYI2N6VfoIsZvrN5l350ZCDnui4pKCjlxALQ4fx7o2p+Y9/Puqr88BEj8QG3fRT8QKMLwaGuPAA4DWxY9fQ5FAQ0dkIbakdjSGLeVZmyt0v47lzqdOrDV81I0LQWUMLdu/BNGm4Eb+G5SGG9rxRZWqxMy1HsfxPcF8nLFEanVZmV1yA2k9NB9MRqq8laMJcfvwv1HM0K3dbG21ChtOVO9CDOw7htG2elBcAHZQdk+CIIWpRxAQV1lwNygjv0EkrU9i4V4lA5ndSefjRyW/ZpvMZmh2ZpNDDQ8zz/5JfGeQNH5QbZdlezoZoT+7XsOCEyyXvjL/Lhh99FueksmAxhQQtA5j82q37QuP7UXruo3WYYXxCf0zTWz4Ex+1wVRc7qpXeUhgl6XggHjKmUfn/uF9QjCUQJEeu8998Vv0cXF6V45hHMJkytqWqjLcD7GRBniTVWS4k2A3ft/n/dgatzAJd/1VkyTCj53iEqTS0SRaONRVo2L0K912ep6JbD5sakQLmDDhhXL0/rEEYkE6vqH6prLrEqTe5w5lOpIzmF9rLHxJmlDLUHMHzmQOAiQ=
+  on:
+    tags: true
+    repo: mrhenry/mr-timeago
